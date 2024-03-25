@@ -19,7 +19,7 @@ const SignIn = () => {
     <>
       <div className="sign-in-container">
         <form onSubmit={signIn}>
-          <h1>Log In Here</h1>
+          <h1 className="text-7xl">Log In Here</h1>
           <input
             type="text"
             placeholder="enter email"
